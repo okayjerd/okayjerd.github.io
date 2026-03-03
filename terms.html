@@ -5,76 +5,139 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terms of Service - OkayJerd</title>
     <style>
+        @import url('https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900');
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
         body {
-            background-color: #0f172a;
-            color: #f8fafc;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
+            background-color: #2a2f4a;
+            background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop'); 
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            font-family: 'Merriweather', serif;
+            font-weight: 300;
+            font-size: 1rem;
+            line-height: 2;
+            color: #212931;
+            padding-top: 4rem; 
         }
-        header {
-            padding: 3rem 2rem;
+
+        #wrapper {
+            background-color: #ffffff;
+            max-width: 72rem;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        #header {
+            border-bottom: solid 2px #eeeeee;
             text-align: center;
-            background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
-            border-bottom: 1px solid #334155;
+            padding: 4rem 4rem 2rem 4rem;
         }
-        h1 {
-            color: #38bdf8;
-            margin: 0;
+        #header h1 {
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.075em;
+            margin-bottom: 1rem;
         }
-        .content {
-            max-width: 800px;
-            margin: 3rem auto;
-            padding: 0 2rem;
+
+        #main {
+            padding: 4rem;
         }
+        
         h2 {
-            color: #38bdf8;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.075em;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+        }
+        
+        ul {
+            margin-bottom: 1.5rem;
+            padding-left: 2rem;
+        }
+
+        .button {
+            background-color: transparent;
+            border: solid 2px #212931;
+            color: #212931;
+            cursor: pointer;
+            display: inline-block;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 0.8rem;
+            font-weight: 900;
+            letter-spacing: 0.25em;
+            padding: 0 2rem;
+            line-height: 3.5rem;
+            text-align: center;
+            text-decoration: none;
+            text-transform: uppercase;
+            white-space: nowrap;
+            transition: background-color 0.2s, color 0.2s;
             margin-top: 2rem;
         }
-        a {
-            color: #38bdf8;
-            text-decoration: none;
+        .button:hover {
+            background-color: #212931;
+            color: #ffffff;
         }
-        a:hover {
-            text-decoration: underline;
-        }
-        footer {
+
+        #footer {
+            padding: 4rem;
+            border-top: solid 2px #eeeeee;
             text-align: center;
-            padding: 3rem 2rem;
-            border-top: 1px solid #334155;
-            margin-top: 4rem;
-            color: #64748b;
+            font-family: 'Source Sans Pro', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 0.25em;
+            font-size: 0.8rem;
+            color: #717981;
+        }
+
+        @media screen and (max-width: 736px) {
+            body { padding-top: 2rem; }
+            #header, #main, #footer { padding: 2rem; }
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Terms of Service</h1>
-        <p>OkayJerd AI Automation</p>
-    </header>
-    <div class="content">
-        <p><strong>Effective Date:</strong> March 3, 2026</p>
+    <div id="wrapper">
+        <header id="header">
+            <h1>Terms of Service</h1>
+        </header>
+        <div id="main">
+            <p><strong>Effective Date:</strong> March 3, 2026</p>
 
-        <h2>1. Acceptance of Terms</h2>
-        <p>By accessing our website or utilizing our services, you agree to be bound by these Terms of Service.</p>
+            <h2>1. Acceptance of Terms</h2>
+            <p>By accessing our website or utilizing our services, you agree to be bound by these Terms of Service.</p>
 
-        <h2>2. SMS Communications</h2>
-        <p>By calling our business phone number or providing your phone number via our website, you consent to receive automated text messages regarding your inquiry.</p>
-        <ul>
-            <li><strong>Message Frequency:</strong> Message frequency varies based on your interaction with our services.</li>
-            <li><strong>Pricing:</strong> Standard message and data rates may apply.</li>
-            <li><strong>Opt-Out:</strong> You may opt out of receiving text messages at any time by replying "STOP" to any message you receive from us.</li>
-            <li><strong>Help:</strong> For assistance, reply "HELP" to any message or contact us directly.</li>
-        </ul>
+            <h2>2. SMS Communications</h2>
+            <p>By calling our business phone number or providing your phone number via our website, you consent to receive automated text messages regarding your inquiry.</p>
+            <ul>
+                <li><strong>Message Frequency:</strong> Message frequency varies based on your interaction with our services.</li>
+                <li><strong>Pricing:</strong> Standard message and data rates may apply.</li>
+                <li><strong>Opt-Out:</strong> You may opt out of receiving text messages at any time by replying "STOP" to any message you receive from us.</li>
+                <li><strong>Help:</strong> For assistance, reply "HELP" to any message or contact us directly.</li>
+            </ul>
 
-        <h2>3. Limitation of Liability</h2>
-        <p>OkayJerd shall not be liable for any indirect, incidental, or consequential damages resulting from the use of our services.</p>
-        
-        <p><br><a href="index.html">Return to Homepage</a></p>
+            <h2>3. Limitation of Liability</h2>
+            <p>OkayJerd shall not be liable for any indirect, incidental, or consequential damages resulting from the use of our services.</p>
+            
+            <div style="text-align: center;">
+                <a href="index.html" class="button">Return to Homepage</a>
+            </div>
+        </div>
+        <footer id="footer">
+            &copy; 2026 OkayJerd.
+        </footer>
     </div>
-    <footer>
-        <p>&copy; 2026 OkayJerd. All rights reserved.</p>
-    </footer>
 </body>
 </html>
