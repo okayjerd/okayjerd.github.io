@@ -1,1 +1,126 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jared Adams</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900');
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            background-color: #2a2f4a;
+            background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop'); 
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            font-family: 'Merriweather', serif;
+            font-weight: 300;
+            font-size: 1rem;
+            line-height: 2;
+            color: #ffffff;
+        }
+
+        #intro {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+            padding: 4rem 2rem;
+            background-color: rgba(33, 41, 49, 0.6); 
+        }
+
+        #intro h1 {
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 4rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.075em;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+        }
+
+        #intro p {
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            margin-bottom: 3rem;
+            max-width: 650px;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .button {
+            background-color: transparent;
+            border: solid 2px #ffffff;
+            color: #ffffff;
+            cursor: pointer;
+            display: block;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 900;
+            letter-spacing: 0.25em;
+            padding: 1.25rem 2rem;
+            text-align: center;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: background-color 0.2s, color 0.2s;
+        }
+
+        .button:hover {
+            background-color: #ffffff;
+            color: #212931;
+        }
+
+        .button span {
+            display: block;
+            font-family: 'Merriweather', serif;
+            font-size: 0.75rem;
+            font-weight: 300;
+            letter-spacing: 0.1em;
+            text-transform: none;
+            margin-top: 0.5rem;
+            opacity: 0.85;
+        }
+
+        @media screen and (max-width: 736px) {
+            #intro h1 { font-size: 2.5rem; }
+            #intro p { font-size: 0.8rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div id="intro">
+        <h1>Jared Adams</h1>
+        <p>US Air Force Veteran | Computer Science Student <br><br> </p>
+
+        <div class="links">
+            <a href="agency/index.html" class="button">
+                AI Agency
+                <span>My automated missed call text system</span>
+            </a>
+            
+            <!-- <a href="https://github.com/yourusername" class="button">
+                GitHub
+                <span>View my CS and programming projects</span>
+            </a> -->
+            
+            <a href="https://linkedin.com/in/okayjerd" class="button">
+                LinkedIn
+                <span>Connect with me professionally</span>
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
